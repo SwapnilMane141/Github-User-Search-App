@@ -1,0 +1,45 @@
+// Color variables
+$color-primary:#2B3442;
+$color-secondary:#0079FF;
+$color-secondary-light:#398ef0;
+$color-grey:#697C9A;
+$color-grey-blue:#4B6A9B;
+$color-grey-blue:#4B6A9B;
+$color-bg-white:#F2F2F2;
+$color-bg-white--2:#FEFEFE;
+
+// Dark Mode Colors
+$color-bg-dark:#141D2F;
+$color-bg-box:#1E2A47;
+
+// Media Queries
+
+$bp-4k:87.5em; //1400 px
+$bp-largest:75em; //1200 px
+$bp-large:68.75em; //1100 px
+$bp-medium: 56.25em; // 900 px
+$bp-small: 50em; // 600 px
+$bp-smallest: 31.25em; // 500 px
+$bp-micro: 25em; // 400 px
+
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: 'Space Mono',monospace;
+    color:$color-primary;
+    background-color: $color-bg-white;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/icon" href="images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <title>Github User Search</title>
+    <script defer src="js/script.js"></script>
+</head>
+<body class="body">
+    <header class="header">
+        <div class="top-bar">
+            <h1 class="title">devfinder</h1>
+            <div class="dark-mode">
+                <div class="dark-mode__text">DARK</div>
+                <img src="images/icon-moon.svg" alt="Dark mode icon" class="dark-mode__icon">
+            </div>
+        </div>
+
+        <div class="search-box">
+            <input type="text" class="search-box__input" name="searchBox" placeholder="Github username...">
+            <div class="search-error hidden">No results</div>
+            <div class="search-btn">Search</div>
+        </div>
+        <div>
+            <div class="profile-box">
+                <div class="profile-box__primary">
+                    <img src="images/codercat.jpg" alt="Profile image" class="profile-img">
+
+                    <div class="profile-data">
+                        <div class="profile-header-data">
+                            <div class="profile-name">The Octocat</div>
+                            <div class="joined-date grey-text">Joined 25 Jan 2011</div>
+                        </div>
+                        <div class="profile-username">@octocat</div>
+                    </div>
+                </div>
+                <div class="profile-bio grey-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+                <div class="profile-stats">
+                    <div class="stats-type">
+                        <div class="stats-type-text grey-text">Repos</div>
+                        <div class="stats-type-number repo">8</div>
+                    </div>
+                    <div class="stats-type">
+                        <div class="stats-type-text grey-text">Followers</div>
+                        <div class="stats-type-number followers">3938</div>
+                    </div>
+                    <div class="stats-type">
+                        <div class="stats-type-text grey-text">Following</div>
+                        <div class="stats-type-number following">9</div>
+                    </div>
+                </div>
+
+                <div class="profile-links">
+                    <div class="profile-links__info">
+                        <img src="images/icon-location.svg" alt="Location icon" class="profile-links__info--img">
+                        <div class="profile-links__info--text location grey-blue-text">San Francisco</div>
+                    </div>
+                    <div class="profile-links__info">
+                        <img src="images/icon-twitter.svg" alt="Twitter icon" class="profile-links__info--img">
+                        <div class="profile-links__info--text twitter-username grey-blue-text">Not available</div>
+                    </div>
+                    <div class="profile-links__info">
+                        <img src="images/icon-website.svg" alt="Website icon" class="profile-links__info--img">
+                        <div class="profile-links__info--text blog-link grey-blue-text">https://github.blog</div>
+                    </div>
+                    <div class="profile-links__info">
+                        <img src="images/icon-company.svg" alt="Company icon" class="profile-links__info--img" >
+                        <div class="profile-links__info--text company grey-blue-text">@github</div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </header>
+    
+</body>
+</html>

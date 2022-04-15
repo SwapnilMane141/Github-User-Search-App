@@ -1,0 +1,27 @@
+
+.applied-dark-mode{
+    transition: all .3s;
+    background-color: $color-bg-dark !important;
+}
+
+.box-dark-mode{
+    transition: all .3s;
+    background-color:$color-bg-box !important;
+}
+
+.white-text{
+    color:$color-bg-white--2 !important;
+}
+
+.grey-text{
+    color:$color-grey;
+}
+
+.grey-blue-text{
+    color:$color-grey-blue;
+}
+
+.hidden{
+    display: none;
+    width: 0;
+}
